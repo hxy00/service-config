@@ -1,9 +1,4 @@
-server:
-  port: 8766
-
 spring:
-  application:
-    name: service-webapp
   redis:
       database: 0 # Redis数据库索引（默认为0）
       host: 127.0.0.1  #Redis服务器地址
@@ -20,5 +15,6 @@ spring:
     view:
       prefix: /WEB-INF
       suffix: .jsp
+      
   thymeleaf:
     prefix: classpath:/templates
