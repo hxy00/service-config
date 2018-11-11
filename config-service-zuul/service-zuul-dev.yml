@@ -17,12 +17,9 @@ zuul:
       connect-timeout-millis: 100000
       socket-timeout-millis: 60000
   routes:
-#    api-a:
-#      path: /api-a/**
-#      serviceId: service-ribbon
     api-b:
       path: /api-sv/**
-      serviceId: service-feign
+      serviceId: zrtdp2p-service
     api-web:
       path: /api-web/**
       url: http://localhost:8766/
