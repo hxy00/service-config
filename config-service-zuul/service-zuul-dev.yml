@@ -19,7 +19,7 @@ zuul:
   routes:
     api-b:
       path: /api-sv/**
-      serviceId: zrtdp2p-service
+      serviceId: service-feign
     api-web:
       path: /api-web/**
       url: http://localhost:8766/
